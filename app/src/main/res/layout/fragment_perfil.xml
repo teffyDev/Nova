@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondop">
 
-
     <Button
         android:id="@+id/btnhistrorial"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -137,6 +136,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.709" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
