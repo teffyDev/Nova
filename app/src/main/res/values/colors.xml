@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="cafe_claro">#EDDACF</color>
+    <color name="cafe_medio">#C49C86</color>#C49C86
+    <color name="cafe_oscuro">#9F715D</color>
+    <color name="cafepciked">#9F715D</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="naranja">#FFAE6A</color>
+    <color name="amarillo">#FFD792</color>
+
+    <color name="transparent">#EDDACF</color>
+
+
+    <color name="color_checked">#9F715D</color> <!-- Color cuando está marcada -->
+    <color name="color_pressed">#9F715D</color> <!-- Color cuando está presionada -->
+    <color name="color_unchecked">#9F715D</color> <!-- Color cuando no está marcada -->
+
+    <color name="color_checkedn">@color/naranja</color> <!-- Color cuando está marcada -->
+    <color name="color_pressedn">@color/naranja</color> <!-- Color cuando está presionada -->
+    <color name="color_uncheckedn">@color/naranja</color> <!-- Color cuando no está marcada -->
+    <color name="toolbar_text_color">@color/blanco</color>
+    <color name="colorBarraEstado">#9F715D</color>
+
+
+
+
+</resources>

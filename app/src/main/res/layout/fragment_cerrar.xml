@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fsalir"
+    tools:context=".ui.boton.BotonFragment">
+
+    <ImageButton
+        android:id="@+id/btnVolverEntrada"
+        style="@style/TransparentImageButtonStyle"
+        android:layout_width="189dp"
+        android:layout_height="206dp"
+        android:src="@drawable/salida"
+        android:layout_gravity="center" />
+
+</FrameLayout>

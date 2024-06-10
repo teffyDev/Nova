@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fperfile"
+    tools:context=".ui.perfile.PerfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagperfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/usuarion"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.329" />
+
+
+        <EditText
+            android:id="@+id/txt_nit"
+            android:layout_width="255dp"
+            android:layout_height="57dp"
+            android:background="@drawable/bordertxt"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="@string/txt_nit"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@color/naranja"
+            android:textColorHighlight="@color/naranja"
+            android:textColorHint="@color/naranja"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.55" />
+
+        <EditText
+            android:id="@+id/txt_nombreE"
+            android:layout_width="255dp"
+            android:layout_height="57dp"
+            android:background="@drawable/bordertxt"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="@string/txt_nombree"
+            android:textAlignment="center"
+            android:textColor="@color/naranja"
+            android:textColorHighlight="@color/naranja"
+            android:textColorHint="@color/naranja"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.462" />
+
+        <EditText
+            android:layout_width="255dp"
+            android:layout_height="57dp"
+            android:background="@drawable/bordertxt"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="@string/txt_correoe"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/naranja"
+            android:textColorHighlight="@color/naranja"
+            android:textColorHint="@color/naranja"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.641" />
+
+        <Button
+            android:id="@+id/btnsavee"
+            android:layout_width="188dp"
+            android:layout_height="52dp"
+            android:backgroundTint="@color/naranja"
+            android:fontFamily="casual"
+            android:hint="@string/btn_save"
+            android:textColor="@color/blanco"
+            android:textColorHighlight="@color/blanco"
+            android:textColorHint="@color/blanco"
+            android:textColorLink="@color/blanco"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.731" />
+
+        <Button
+            android:id="@+id/btnhistroriale"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/btn_historial"
+            android:textColor="@color/blanco"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.909" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

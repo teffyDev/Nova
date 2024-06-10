@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iniciou"
+    tools:context=".IniciouActivity">
+
+
+    <EditText
+        android:id="@+id/txt_correou"
+        android:layout_width="238dp"
+        android:layout_height="54dp"
+        android:background="@drawable/bordertxtc"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/txt_correo"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/cafe_oscuro"
+        android:textColorHighlight="@color/cafe_oscuro"
+        android:textColorHint="@color/cafe_oscuro"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="106dp"
+        android:layout_height="35dp"
+        android:buttonTint="@color/checkbox_color"
+        android:hint="@string/checkbox"
+        android:text="CheckBox"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+        android:textSize="15sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721" />
+
+    <EditText
+        android:id="@+id/txt_contraseñau"
+        android:layout_width="238dp"
+        android:layout_height="54dp"
+        android:background="@drawable/bordertxtc"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/txt_contrasena"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/cafe_oscuro"
+        android:textColorHighlight="@color/cafe_oscuro"
+        android:textColorHint="@color/cafe_oscuro"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="154dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/cafe_oscuro"
+        android:fontFamily="casual"
+        android:hint="@string/btn_entraru"
+        android:textColor="@color/blanco"
+        android:textColorHighlight="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:textColorLink="@color/blanco"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+
+    <ImageView
+        android:id="@+id/usuariou"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556"
+        app:srcCompat="@drawable/usuarioc" />
+
+    <ImageView
+        android:id="@+id/contraseñau"
+        android:layout_width="49dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658"
+        app:srcCompat="@drawable/candadoc" />
+
+
+    <Button
+        android:id="@+id/btnrecuperarcontra"
+        android:layout_width="267dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/cafe_oscuro"
+        android:fontFamily="casual"
+        android:hint="@string/btn_olvido"
+        android:textColor="@color/blanco"
+        android:textColorHighlight="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:textColorLink="@color/blanco"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945" />
+
+    <Button
+        android:id="@+id/btnregistrar"
+        android:layout_width="157dp"
+        android:layout_height="39dp"
+        android:backgroundTint="@color/cafe_oscuro"
+        android:fontFamily="casual"
+        android:hint="@string/btn_registraru"
+        android:textColor="@color/blanco"
+        android:textColorHighlight="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:textColorLink="@color/blanco"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notificacionFragment"
+        android:icon="@drawable/notificacion"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/perfileFragment"
+        android:icon="@drawable/iconperfil"
+        android:title="@string/title_dashboard" />
+    <item
+        android:id="@+id/cerrareFragment"
+        android:icon="@drawable/iconcerrarsesion"
+        android:title="@string/title_notifications" />
+</menu>

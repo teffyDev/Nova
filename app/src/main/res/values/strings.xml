@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Nova</string>
+
+
+    //activity main
+    <string name="btn_usuario">Usuario</string>
+    <string name="btn_entidad">Entidad</string>
+    //activity inicio usuario
+    <string name="txt_correo">Correo</string>
+    <string name="txt_contrasena">Contraseña</string>
+    <string name="btn_entraru">ENTRAR</string>
+    <string name="btn_olvido">¿Olvidaste la Contreseña?</string>
+    <string name="btn_registraru">REGISTRATE</string>
+    <string name="checkbox">Recuerdame</string>
+    // activity restablecer
+
+    <string name="btn_enviar">Enviar</string>
+    <string name="btn_inicio">VOLVER A LA PAGINA DE INICIO</string>
+
+
+    // activity registrou
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_Apellido">Apellido</string>
+    <string name="txt_identificacion">Identificacion</string>
+    <string name="txt_fecha">Fecha de Nacimiento</string>
+    <string name="txt_genero">Genero</string>
+    <string name="txt_Rcontraseña">Repita Contraseña</string>
+    <string name="btn_cuentaya">YA TIENES CUENTA</string>
+    <string name="btn_registrar">REGISTRAR</string>
+
+
+    // activity regsidtroe
+    <string name="txt_nombree">Nombre Empresa</string>
+    <string name="txt_nit">Nit</string>
+    <string name="txt_correoe">Correo</string>
+    <string name="txt_Rcontraseñae">Repita Contraseña</string>
+    <string name="btn_cuentayae">YA TIENES CUENTA</string>
+    //menu
+    <string name="title_activity_menu_usuario">MenuUsuario</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    //menu
+    <string name="title_boton">Boton</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_acoso">Acoso</string>
+    <string name="title_cerrar">Cerrar</string>
+    //fragmet perfil
+    <string name="btn_save">Guardar</string>
+    <string name="btn_historial">HISTORICO DE INCIDENTES</string>
+
+    //menu 2
+    <string name="title_activity_menue">MenueActivity</string>
+    <string name="title_home">Notificacion</string>
+    <string name="title_dashboard">Perfil</string>
+    <string name="title_notifications">Cerrar</string>
+</resources>
